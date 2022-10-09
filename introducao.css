@@ -45,6 +45,7 @@
   }
   .introducao h1 {
     font-size: 3rem;
+    line-height: 60px;
   }
   .introducao h1::before {
     width: 30px;
@@ -56,6 +57,7 @@
 @media (max-width: 425px) {
   .introducao {
     grid-template-columns: 1fr;
+    background: #f5f5f5;
   }
   .introducao img {
     display: none;
