@@ -19,7 +19,7 @@
   display: block;
   width: 130px;
   height: 100px;
-  background: url(/assets/img/linhas.svg) no-repeat center;
+  background: url(./assets/img/linhas.svg) no-repeat center;
   position: absolute;
   bottom: -50px;
 }
@@ -155,5 +155,10 @@
   .capacitacoes h3::before {
     position: initial;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 690px) {
+  .formacao .subtitulo{
+    font-size: 40px;
   }
 }

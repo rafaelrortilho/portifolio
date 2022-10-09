@@ -26,9 +26,18 @@
   .menu {
     flex-direction: column;
     gap: 40px;
+    padding: 80px;
   }
   .menu a {
     background: #f5f5f5;
     border-radius: 4px;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 419px) {
+  .menu {
+    flex-direction: column;
+    gap: 40px;
   }
 }

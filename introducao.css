@@ -54,7 +54,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 689px) {
   .introducao {
     grid-template-columns: 1fr;
     background: #f5f5f5;
