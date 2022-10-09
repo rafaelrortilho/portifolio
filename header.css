@@ -10,9 +10,9 @@ align-items: center;
 .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
-  
+  justify-content: center;
 }
 
 .links a {
@@ -23,3 +23,11 @@ display: block;
 color: #000000;
 }
 
+
+@media (max-width: 800px) {
+.header {
+flex-direction: column;
+gap: 40px;
+padding: 20px;
+}
+}
