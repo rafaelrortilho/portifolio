@@ -53,7 +53,7 @@
   }
 }
 
-@media (max-width: 423px) {
+@media (max-width: 425px) {
   .introducao {
     grid-template-columns: 1fr;
   }
