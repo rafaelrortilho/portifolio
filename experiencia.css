@@ -39,7 +39,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(180deg, #B629F8 0%, #800ADD 100%);
+  background: linear-gradient(180deg, #b629f8 0%, #800add 100%);
   position: absolute;
   top: 20px;
   left: -4px;
@@ -88,16 +88,16 @@
   }
   .experiencia .subtitulo {
     color: #141414;
-    }
-    .descricao {
-      font-size: 1.25rem;
-    }
-    .ano {
-      position: initial;
-      order: 1;
-      width: initial;
-      text-align: left;
-    }
+  }
+  .descricao {
+    font-size: 1.25rem;
+  }
+  .ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
 }
 
 @media (max-width: 400px) {
