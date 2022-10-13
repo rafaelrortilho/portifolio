@@ -22,7 +22,7 @@
   color: #000000;
 }
 
-@media (max-width: 545px) {
+@media (max-width: 800px) {
   .menu {
     flex-direction: column;
     gap: 40px;
@@ -35,7 +35,7 @@
   }
 }
 
-@media (max-width: 419px) {
+@media (max-width: 800px) {
   .menu {
     flex-direction: column;
     gap: 40px;
