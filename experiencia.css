@@ -101,37 +101,38 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width:800px) {
   .experiencia {
-    grid-template-columns: 1fr;
-    gap: 40px;
+grid-template-columns: 1fr;
+gap: 40px;
   }
-}
-
-@media (max-width: 1024px) {
-  .empresa-nome {
-    margin: 20px auto;
+  .experiencia .subtitulo {
+    color: #141414;
+    order: 1;
   }
-}
-
-@media (max-width: px) {
-  .empresa {
-    grid-template-columns: 1fr;
-    gap: 15px;
+  .experiencia-texto {
+    font-size: 1.25rem;
+    order: 2;
+  }
+  .ano{
+    position: initial;
+    order: 5;
+    width: initial;
+    text-align: left;
+  }
+  .ano::before {
+    content: "Ano";
   }
 }
 
 @media (max-width: 400px) {
-  .experiencia .subtitulo {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 690px) {
-  .experiencia .subtitulo {
-    font-size: 40px;
-  }
   .empresa {
-    max-width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .classe {
+    order: 3;
+  }
+  .habilidades {
+    order: 4;
   }
 }
