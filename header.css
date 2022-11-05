@@ -1,4 +1,4 @@
-.menu {
+#menu {
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;
@@ -22,13 +22,22 @@
   color: #000000;
 }
 
+#btn-mobile {
+  display: none;
+  font-size: 20px;
+}
+
 @media (max-width: 800px) {
-  .menu {
-    flex-direction: column;
+  #menu {
     gap: 40px;
     padding: 80px;
   }
-  .menu a {
+
+  #menu ul li a {
+    flex-direction: column;
+  }
+
+  #menu a {
     background: #f5f5f5;
     border-radius: 4px;
     gap: 80px;
@@ -36,8 +45,22 @@
 }
 
 @media (max-width: 800px) {
-  .menu {
+  #menu {
     flex-direction: column;
     gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  #btn-mobile {
+    display: block;
+  }
+  #menu ul li a {
+    display: none;
+  }
+
+  #menu {
+    display: flex;
+    flex-direction: row;
   }
 }
